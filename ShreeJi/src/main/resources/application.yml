@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Shreeji
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp    
+    
+server:
+  port: 8060       
+
